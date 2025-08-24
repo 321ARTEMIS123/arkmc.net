@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK MC</title>
+    <link rel="icon" href="./Assets/website-icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .hud-main {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-image: url('./Assets/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8);
+        }
+
+        .hud-header {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hud-content {
+            position: absolute;
+            top: 180px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <div class="hud-main">
+        <div class="hud-header">
+            <h1>ARK MC</h1>
+            <p>The Ultimate Minecraft Server</p>
+        </div>
+        <div class="hud-content">
+            <h2>Welcome to ARK MC!</h2>
+            <p>Join our community and explore the endless possibilities of Minecraft with us. Whether you're into building, exploring, or battling, ARK MC has something for everyone.</p>
+            <a href="https://discord.gg/8sF4ze6VS9" class="hud-button">Join our Discord</a>
+        </div>
+    </div>
+</body>
+</html>
